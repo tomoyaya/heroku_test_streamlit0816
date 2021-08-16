@@ -49,11 +49,11 @@ st.map(df3)
 
 st.write('Display Image')
 img = Image.open('sample_image.jpeg')
-st.image(img, caption='tiger',use_column_width=True)
+#st.image(img, caption='tiger',use_column_width=True)
 
-if st.checkbox('Show Image'):
-    img = Image.open('sample_image.jpeg')
-    st.image(img, caption='tiger',use_column_width=True)
+#if st.checkbox('Show Image'):
+#    img = Image.open('sample_image.jpeg')
+#    st.image(img, caption='tiger',use_column_width=True)
 
 
 option = st.selectbox(
