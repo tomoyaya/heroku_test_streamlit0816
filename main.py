@@ -19,7 +19,7 @@ st.dataframe(df.style.highlight_max(axis=0))
 st.table(df.style.highlight_max(axis=0))
 
 """
-# 章ああああ
+# 章
 ## 節
 ### 項
 
